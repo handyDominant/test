@@ -1,0 +1,36 @@
+#apple,
+#twitter,
+#github,
+#facebook {
+    
+    font-size: 1em;
+    background-color: #18191f;
+    color: #fff;
+    box-shadow: 2px 2px 2px #24d13280, 10px 1px 12px #17944b80, 2px 2px 10px #2bb48680, 2px 2px 3px #172da580, inset 2px 2px 10px #c9060680, inset 2px 2px 10px #00000080, inset 2px 2px 10px #dd0f0f80, inset 2px 2px 10px #d6111180;
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animateIcon 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
+}
+
+#twitter {
+    animation-delay: 0.3s;
+}
+
+#facebook {
+    animation-delay: 0.3s;
+}
+
+#github {
+    animation-delay: 0.1s;
+}
+
+@keyframes animateIcon {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
